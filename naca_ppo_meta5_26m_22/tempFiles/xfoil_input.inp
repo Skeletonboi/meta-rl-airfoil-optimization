@@ -1,0 +1,28 @@
+PLOP
+G
+
+LOAD ./naca_ppo_meta5_26m_22/finGeoms/iter4.dat
+PPAR
+N 170
+P 4
+T 1
+R 1
+XT 1 1
+XB 1 1
+
+
+PSAV ./naca_ppo_meta5_26m_22/tempFiles/Save_iter4.txt
+OPER
+visc 2600000
+m 0.3
+Pacc 1 
+
+
+Alfa 2.0
+Alfa 2.0
+Alfa 2.0
+Alfa 2.0
+Alfa 2.0
+CPWR ./naca_ppo_meta5_26m_22/tempFiles/Save_iter4_Cp.txt
+PWRT
+./naca_ppo_meta5_26m_22/tempFiles/Save_iter4_Pol.txt

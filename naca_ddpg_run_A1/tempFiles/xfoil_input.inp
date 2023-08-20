@@ -1,0 +1,28 @@
+PLOP
+G
+
+LOAD ./naca_ddpg_run_A1/finGeoms/iter1.dat
+PPAR
+N 170
+P 4
+T 1
+R 1
+XT 1 1
+XB 1 1
+
+
+PSAV ./naca_ddpg_run_A1/tempFiles/Save_iter1.txt
+OPER
+visc 850000
+m 0.1
+Pacc 1 
+
+
+Alfa 2.0
+Alfa 2.0
+Alfa 2.0
+Alfa 2.0
+Alfa 2.0
+CPWR ./naca_ddpg_run_A1/tempFiles/Save_iter1_Cp.txt
+PWRT
+./naca_ddpg_run_A1/tempFiles/Save_iter1_Pol.txt

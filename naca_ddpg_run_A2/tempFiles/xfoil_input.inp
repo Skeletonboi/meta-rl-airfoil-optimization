@@ -1,0 +1,28 @@
+PLOP
+G
+
+LOAD ./naca_ddpg_run_A2/finGeoms/initialNACA.dat
+PPAR
+N 170
+P 4
+T 1
+R 1
+XT 1 1
+XB 1 1
+
+
+PSAV ./naca_ddpg_run_A2/tempFiles/Save_initialNACA.txt
+OPER
+visc 850000
+m 0.1
+Pacc 1 
+
+
+Alfa 2.0
+Alfa 2.0
+Alfa 2.0
+Alfa 2.0
+Alfa 2.0
+CPWR ./naca_ddpg_run_A2/tempFiles/Save_initialNACA_Cp.txt
+PWRT
+./naca_ddpg_run_A2/tempFiles/Save_initialNACA_Pol.txt

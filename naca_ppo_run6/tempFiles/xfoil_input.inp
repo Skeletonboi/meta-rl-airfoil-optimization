@@ -1,0 +1,28 @@
+PLOP
+G
+
+LOAD ./naca_ppo_run6/finGeoms/iter15.dat
+PPAR
+N 170
+P 4
+T 1
+R 1
+XT 1 1
+XB 1 1
+
+
+PSAV ./naca_ppo_run6/tempFiles/Save_iter15.txt
+OPER
+visc 3500000
+m 0.4
+Pacc 1 
+
+
+Alfa 0
+Alfa 0
+Alfa 0
+Alfa 0
+Alfa 0
+CPWR ./naca_ppo_run6/tempFiles/Save_iter15_Cp.txt
+PWRT
+./naca_ppo_run6/tempFiles/Save_iter15_Pol.txt

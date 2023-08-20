@@ -1,0 +1,28 @@
+PLOP
+G
+
+LOAD C:\Users\mrvic\Documents\thesis\drl_meta_shape_optimization_main\naca_td3_run_test\finGeoms\initialNACA.dat
+PPAR
+N 170
+P 4
+T 1
+R 1
+XT 1 1
+XB 1 1
+
+
+PSAV C:\Users\mrvic\Documents\thesis\drl_meta_shape_optimization_main\naca_td3_run_test\tempFiles\Save_initialNACA.txt
+OPER
+visc 850000
+m 0.1
+Pacc 1 
+
+
+Alfa 2.0
+Alfa 2.0
+Alfa 2.0
+Alfa 2.0
+Alfa 2.0
+CPWR C:\Users\mrvic\Documents\thesis\drl_meta_shape_optimization_main\naca_td3_run_test\tempFiles\Save_initialNACA_Cp.txt
+PWRT
+C:\Users\mrvic\Documents\thesis\drl_meta_shape_optimization_main\naca_td3_run_test\tempFiles\Save_initialNACA_Pol.txt

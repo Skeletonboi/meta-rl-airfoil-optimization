@@ -1,0 +1,25 @@
+- motivation
+	- explain simplifications from supersonic cfds
+		- restricted by computational resources & lack of well-defined method to extract supersonic aero coeffs.
+		- possibly show supersonic cfd p dist image
+	- instead, we looked at varying aerodynamic conditions, paramaterized by Re and AOA of airfoil
+- intro to DRL and meta
+	- choice of alg? (ppo vs ddpg/td3)
+	- explain meta-learning, MAML 
+		- show meta-objective eqn./ picture / pseudocode
+		- explain difference from straight transfer learning (possibly show graph of no finetuning)
+	- explain simplification to FOMAML, similar to REPTILE
+	- TBD show image of final workflow
+		- include brief xfoil explanation
+		- environment sampling, workflow, reward func, and why
+	- results of no meta-learning optimization, # timesteps, walltime, of the different Re's
+	- show how ppo outperformed ddpg/td3 istability?
+	- show meta-learning results
+- limitations
+	- action-space paramaterization, to generalize method to more complex geometry, or to find shared action-space between geometric domains
+	- efficient aerodynamic evaluation method
+	- parallel CPU compute resources
+	- better guarantee of well-formed geometry to prevent errors/non-convergence (increases compute time of CFDs or approximate methods to inifnit
+
+
+

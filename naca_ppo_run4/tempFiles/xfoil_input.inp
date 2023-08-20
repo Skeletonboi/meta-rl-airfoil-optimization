@@ -1,0 +1,28 @@
+PLOP
+G
+
+LOAD ./naca_ppo_run4/finGeoms/iter2.dat
+PPAR
+N 225
+P 4
+T 1
+R 1
+XT 1 1
+XB 1 1
+
+
+PSAV ./naca_ppo_run4/tempFiles/Save_iter2.txt
+OPER
+visc 350000
+m 0.3
+Pacc 1 
+
+
+Alfa 0
+Alfa 0
+Alfa 0
+Alfa 0
+Alfa 0
+CPWR ./naca_ppo_run4/tempFiles/Save_iter2_Cp.txt
+PWRT
+./naca_ppo_run4/tempFiles/Save_iter2_Pol.txt
